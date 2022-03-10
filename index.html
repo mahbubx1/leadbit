@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+<meta charset="UTF-8">
+<title>W &#8211; DIANOL IT</title>
+<link rel='stylesheet' id='elementor-frontend-css' href='frontend.min.css?ver=3.5.3' media='all' />
+<link rel='stylesheet' id='elementor-post-29954-css' href='post-29954.css?ver=1640757362' media='all' />
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '512135506995299');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=512135506995299&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+</head>
+<body class="page-template page-template-elementor_canvas page page-id-29954 ast-desktop ast-plain-container ast-no-sidebar astra-3.6.8 ast-header-custom-item-inside ast-full-width-primary-header ast-single-post ast-inherit-site-logo-transparent elementor-default elementor-template-canvas elementor-kit-2531 elementor-page elementor-page-29954">
+<div data-elementor-type="wp-page" data-elementor-id="29954" class="elementor elementor-29954" data-elementor-settings="[]">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-2aa2e18f elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2aa2e18f" data-element_type="section">
+<div class="elementor-container elementor-column-gap-extended">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-333b6bb0" data-id="333b6bb0" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-fc79f44 elementor-widget elementor-widget-spacer" data-id="fc79f44" data-element_type="widget" data-widget_type="spacer.default">
+<div class="elementor-widget-container">
+<div class="elementor-spacer">
+<div class="elementor-spacer-inner"></div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-89df724 elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="89df724" data-element_type="widget" id="form" data-settings="{&quot;step_next_label&quot;:&quot;Successivo&quot;,&quot;step_previous_label&quot;:&quot;Precedente&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+<div class="elementor-widget-container">
+  <form action="order.php" id="order_form" method="post">
+    <input name="offer_id" type="hidden" value="30965">
+    <input name="country_code" type="hidden" value="PL">
+  <div class="elementor-form-fields-wrapper elementor-labels-above">
+  <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100 elementor-field-required">
+  <label for="form-field-name" class="elementor-field-label">
+  Il tuo nome </label>
+  <input size="1" type="text" name="name" id="name" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="IT: Il tuo nome " required="required" aria-required="true">
+  </div>
+  <div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
+  <label for="form-field-email" class="elementor-field-label">
+  Numero di telefono </label>
+  <input size="1" type="tel" name="phone" id="phone" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="IT: +39" required="required" aria-required="true" pattern="[0-9()#&amp;+*-=.]+" title="Sono accettati solo numeri e caratteri telefonici (#, -, *, ecc.).">
+  </div>
+  <div class="elementor-field-type-select elementor-field-group elementor-column elementor-field-group-message elementor-col-100 elementor-field-required">
+  <label for="form-field-message" class="elementor-field-label">
+  REGIONE </label>
+  <div class="elementor-field elementor-select-wrapper ">
+  <select class="form__input form__select landing___country__select country_select" name="country"><option value="IT">Italy</option></select>
+  </div>
+  </div>
+  <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+  <button type="submit" class="elementor-button elementor-size-sm">
+  <span>
+  <span class="elementor-align-icon-left elementor-button-icon">
+  <i aria-hidden="true" class="fas fa-angle-right"></i> </span>
+  <span class="elementor-button-text">Spedire</span>
+  </span>
+  </button>
+  </div>
+  </div>
+  </form>
+</div>
+</div>
+<div class="elementor-element elementor-element-4a56c89e elementor-widget elementor-widget-spacer" data-id="4a56c89e" data-element_type="widget" data-widget_type="spacer.default">
+<div class="elementor-widget-container">
+<div class="elementor-spacer">
+<div class="elementor-spacer-inner"></div>
+</section>
+</body>
+</html>
