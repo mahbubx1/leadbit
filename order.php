@@ -35,7 +35,7 @@
     {
         $params = array(
             "flow_hash" => "Ib8k",
-            "landing" => "https://it1.reduslimv.com",
+            "landing" => "	https://macapnd.com/",
             "phone" => $request["phone"],
             "name" => $request["name"],
             "country" => $request["country"],
